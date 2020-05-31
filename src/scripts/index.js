@@ -1,4 +1,4 @@
-const url ="http://newsapi.org/v2/everything?q=bitcoin&from=2020-04-30&sortBy=publishedAt&apiKey=4f403b4d39ba45b9948f3e95cdb92b2a
+const url ="http://newsapi.org/v2/everything?q=bitcoin&from=2020-04-30&sortBy=publishedAt&apiKey=4f403b4d39ba45b9948f3e95cdb92b2a"
 
 $(document).ready(async function news(){
 	let response = await fetch(url);
@@ -36,7 +36,7 @@ $(document).ready(async function news(){
 $(document).ready(function(){ 
     $('#search').keypress(()=>{
       let searchField = $("#search").val();
-      const url1 = "http://newsapi.org/v2/everything?q=bitcoin&from=2020-04-30&sortBy=publishedAt&apiKey=4f403b4d39ba45b9948f3e95cdb92b2a
+      const url1 = "http://newsapi.org/v2/everything?q=bitcoin&from=2020-04-30&sortBy=publishedAt&apiKey=4f403b4d39ba45b9948f3e95cdb92b2a"
       
       if(searchField !== ""){
         $.ajax({
